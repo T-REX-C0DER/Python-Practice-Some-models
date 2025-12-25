@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 #Arithmatic operations 
 # a = int(input(f"Enter the number : "))
 # b = int(input(f"Enter the number : "))
@@ -84,15 +87,16 @@
 
 
 #SET & Its methods
-# set1 = {1,2,3,4,5}
-# set2 = {5,4,3,2,1}
-# null_set = set()
-# set1.add(67)
-# set1.remove(67)
-# set2.pop()
-# set1.union(set2)
-# set2.intersection(set1)
-# print(set1)
-# print(set2)
-# set1.clear()
-# print(set1)
+set1 = {1,2,3,4,5}
+set2 = {5,4,3,2,1}
+null_set = set()
+set1.add(67)
+set1.remove(67)
+set2.pop()
+set1.union(set2)
+set2.intersection(set1)
+print(set1)
+print(set2)
+set1.clear()
+print(set1)
+>>>>>>> origin/main
