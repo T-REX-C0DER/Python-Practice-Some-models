@@ -116,3 +116,10 @@
 # while i<=10:
 #     print(i)
 #     i += 1
+
+
+#BREAK & CONTINUE
+# for i in range(1,11):
+#     if i==5:
+#         break
+#     print(i)    
