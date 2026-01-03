@@ -130,3 +130,11 @@ for num in numbers:
     if num%2 != 0:
         continue
     print(num)
+
+
+#for loop with lists
+fruits = ["apple","banana","mango","grapes"]
+for fruit in fruits:
+    print(fruit)
+
+
