@@ -138,3 +138,13 @@ for fruit in fruits:
     print(fruit)
 
 
+#for loop with dictionary
+student = {
+    "Name" : "sanjay",
+    "RollNo" : 34,
+    "City" : "solapur"
+}
+for key, value in student.items():
+    print(f"{key} : {value}")
+
+
