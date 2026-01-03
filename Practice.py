@@ -153,3 +153,10 @@ for i in range(1,6):
     print(i)
 else:
     print("Loop is completed")
+
+#for loop with string
+word = "sanjay"
+for letter in word:
+    print(letter)
+
+    
