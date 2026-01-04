@@ -167,3 +167,15 @@ def fact(n):
 
 print(f"The factorial of a number is : {fact(5)}")
 
+#exception handling 
+
+try :
+    a = int(input())
+    b = a/0
+    print(b)
+except zerodiv :
+    print("enter valid num")
+else :
+    print("df")
+finally:
+    print("sdf")
