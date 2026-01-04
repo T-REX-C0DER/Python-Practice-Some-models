@@ -1,11 +1,3 @@
-"""
-Academic Drift Detector
-Author: Sanjay Lade
-Description:
-A CLI-based Python project that detects early academic decline by
-analyzing student behavioral trends (study, focus, sleep, practice, distraction).
-"""
-
 import csv
 import os
 from datetime import datetime
@@ -13,7 +5,6 @@ from statistics import mean
 
 DATA_FILE = "daily_logs.csv"
 
-# ---------------------- DATA STORAGE ----------------------
 
 def init_file():
     if not os.path.exists(DATA_FILE):
@@ -43,7 +34,6 @@ def log_daily_data():
     print("✅ Data saved successfully")
 
 
-# ---------------------- DATA LOADING ----------------------
 
 def load_last_14_days():
     with open(DATA_FILE, mode='r') as file:
@@ -51,7 +41,6 @@ def load_last_14_days():
         return rows[-14:]
 
 
-# ---------------------- ANALYSIS ----------------------
 
 def calculate_averages(data):
     return {
@@ -103,7 +92,6 @@ def analyze_trends():
         print("✅ No major drift detected. Keep going!")
 
 
-# ---------------------- MAIN MENU ----------------------
 
 def main():
     init_file()
