@@ -159,4 +159,11 @@ word = "sanjay"
 for letter in word:
     print(letter)
 
-    
+#// recursion factorial of a num
+def fact(n):
+    if(n==0):
+        return 1
+    fact = n*fact(n-1)
+
+print(f"The factorial of a number is : {fact(5)}")
+
