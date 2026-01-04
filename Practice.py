@@ -175,3 +175,7 @@ try :
     print(b)
 except zerodiv :
     print("enter valid num")
+else :
+    print("df")
+finally:
+    print("sdf")
