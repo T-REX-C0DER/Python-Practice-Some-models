@@ -182,13 +182,13 @@
 
 # #file handling
 # #writing to a file    
-file = open("sample.txt","w")
-file.write("Hello World\n")
-file.write("This is Sanjay Lade\n")
-file.write("I am from Solapur\n")
-file.close()
-# reading from a file
-file = open("sample.txt","r")
-content = file.read()
-print(content)
-file.close()
+# file = open("sample.txt","w")
+# file.write("Hello World\n")
+# file.write("This is Sanjay Lade\n")
+# file.write("I am from Solapur\n")
+# file.close()
+# # reading from a file
+# file = open("sample.txt","r")
+# content = file.read()
+# print(content)
+# file.close()
