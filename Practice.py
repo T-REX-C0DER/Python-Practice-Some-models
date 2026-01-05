@@ -180,3 +180,11 @@
 # finally:
 #     print("sdf")
 
+# #file handling
+# #writing to a file    
+file = open("sample.txt","w")
+file.write("Hello World\n")
+file.write("This is Sanjay Lade\n")
+file.write("I am from Solapur\n")
+file.close()
+# 
