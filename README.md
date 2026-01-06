@@ -82,7 +82,7 @@ This repository is **actively updated** as I continue learning:
 
 ### 👨‍💻 Author
 
-**Sanjay Lade**
-🎓 B.Tech | AI & Data Science
+**Sanjay Lade** <br>
+🎓 B.Tech | AI & Data Science <br>
 🚀 Learning Python, Machine Learning & Software Development
 
