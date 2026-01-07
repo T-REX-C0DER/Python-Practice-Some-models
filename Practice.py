@@ -193,13 +193,13 @@
 # print(content)
 # file.close()
 
-#shorthand if else
-a = 10
-b = 20
-max = a if a>b else b
-print(f"The max num is : {max}")
+# #shorthand if else
+# a = 10
+# b = 20
+# max = a if a>b else b
+# print(f"The max num is : {max}")
 
-#enumerate function
-fruits = ["apple","banana","mango","grapes"]
-for index, fruit in enumerate(fruits):
-    print(f"{index} : {fruit}")
+# #enumerate function
+# fruits = ["apple","banana","mango","grapes"]
+# for index, fruit in enumerate(fruits):
+#     print(f"{index} : {fruit}")
