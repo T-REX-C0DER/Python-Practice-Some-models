@@ -203,3 +203,12 @@
 # fruits = ["apple","banana","mango","grapes"]
 # for index, fruit in enumerate(fruits):
 #     print(f"{index} : {fruit}")
+
+# if __name__ == "__main__":
+
+def greeting(name):
+    return f"Hello, {name}!"
+print(greeting("Sanjay"))
+
+if __name__ == "__main__":
+    print("This script is being run directly.")
