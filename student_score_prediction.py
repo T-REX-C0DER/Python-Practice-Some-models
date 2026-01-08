@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 
 # Prepare the data (fixed length)
 data = {
-    'Hours_Studied': [1,2,3,4,5,6,7,8,9,6],
-    'Score': [23,54,57,76,45,98,99,56,34,23]
+    'Hours_Studied': [1,2,3,4,5,6,7,8,9,6,12,4,5,3,1,2,9,10,11],
+    'Score': [23,54,57,76,45,98,99,56,34,23,78,87,67,98,99,34,56,56,55]
 }
 
 df = pd.DataFrame(data)
