@@ -204,11 +204,17 @@
 # for index, fruit in enumerate(fruits):
 #     print(f"{index} : {fruit}")
 
+# # if __name__ == "__main__":
+
+# def greeting(name):
+#     return f"Hello, {name}!"
+# print(greeting("Sanjay"))
+
 # if __name__ == "__main__":
+#     print("This script is being run directly.")
 
-def greeting(name):
-    return f"Hello, {name}!"
-print(greeting("Sanjay"))
+# Os modules 
+import os 
 
-if __name__ == "__main__":
-    print("This script is being run directly.")
+for i in range(0 , 11 ):#to create folders
+    os.mkdir
