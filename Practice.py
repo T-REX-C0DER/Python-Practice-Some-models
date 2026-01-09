@@ -213,8 +213,7 @@
 # if __name__ == "__main__":
 #     print("This script is being run directly.")
 
-# Os modules 
-import os 
-
-for i in range(0 , 11 ):#to create folders
-    os.mkdir
+# # Os modules 
+# import os 
+# for i in range(0 , 11 ):#to create folders
+#     os.mkdir
