@@ -217,3 +217,16 @@
 # import os 
 # for i in range(0 , 11 ):#to create folders
 #     os.mkdir
+
+
+# Local and Global Variables
+x = "global x"
+def my_function():
+    y = "local y"
+    print(y)
+    print(x)
+    global x
+    x = "modified global x"
+my_function()
+print(x)
+print(y)  # This will raise an error since y is a local variable
