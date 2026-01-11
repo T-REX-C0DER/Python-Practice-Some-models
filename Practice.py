@@ -229,4 +229,32 @@ def my_function():
     x = "modified global x"
 my_function()
 print(x)
-print(y)  # This will raise an error since y is a local variable
+
+
+# File handling 
+file = open("sanjay.txt" , "r") # it is first method to read a file
+data = file.read()
+print(data)
+file.close()
+
+with open("sanjay.txt" , "r") as f: #   it is second method to read a filewe dont have to provide file.close()
+    data = f.read()
+    print(data)
+
+with open("sanjat,txt" , "x") as f: # it is used to create a new file
+    f.write("This is sanjay lade")
+
+with open("sanjay.txt" , "a") as f: # it is used to append data to existing file
+    f.write("\nThis is appended line.")
+
+with open("sanjay.txt" , "r") as f: # it is used to read the file
+    data = f.readline()
+    data2 = f.readlines()
+    data3 = f.read(5)
+    print(data)
+
+with open("sanjay.txt" , "r") as f: # it is used to read the file
+    f.seek(10)# it is used to move the cursor to specific position
+    print(f.tell())# it is used to know the current position of cursor
+    data = f.read()
+    print(data)
