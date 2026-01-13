@@ -265,8 +265,12 @@
 # mutli = lambda a,b : a*b
 # print(mutli(a,b))
 
-from functools import reduce
-# Map Function
-marks = [23,78,90,56,43,34]
-square = list(map(lambda x : x*x , marks))
-print(square)
+# # Map Function
+# marks = [23,78,90,56,43,34]
+# square = list(map(lambda x : x*x , marks))
+# print(square)
+
+# Filter Function
+numbers = [1,2,3,4,5,6,7,8,9,10]
+Odd_num = list(filter(lambda X : X %2 != 0 , numbers))
+print(Odd_num)
