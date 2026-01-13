@@ -275,8 +275,18 @@
 # Odd_num = list(filter(lambda X : X %2 != 0 , numbers))
 # print(Odd_num)
 
-# Reduce Function
-from functools import reduce
-nums = [23,456,78,546,33]
-avg = reduce(lambda a,b : a+b , nums )/len(nums)
-print(avg)
+# # Reduce Function
+# from functools import reduce
+# nums = [23,456,78,546,33]
+# avg = reduce(lambda a,b : a+b , nums )/len(nums)
+# print(avg)
+
+# # Is vs == operator
+# a = [1,2,3]
+# b = [1,2,3]
+# print(a == b)
+# print(a is b)
+# c = a
+# print(a == c)
+# print(a is c)
+
