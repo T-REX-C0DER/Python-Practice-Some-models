@@ -258,3 +258,9 @@
 #     print(f.tell())# it is used to know the current position of cursor
 #     data = f.read()
 #     print(data)
+
+# Lambda Functions 
+a = 10
+b = 234
+mutli = lambda a,b : a*b
+print(mutli(a,b))
