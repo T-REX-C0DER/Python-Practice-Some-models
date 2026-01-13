@@ -259,8 +259,14 @@
 #     data = f.read()
 #     print(data)
 
-# Lambda Functions 
-a = 10
-b = 234
-mutli = lambda a,b : a*b
-print(mutli(a,b))
+# # Lambda Functions 
+# a = 10
+# b = 234
+# mutli = lambda a,b : a*b
+# print(mutli(a,b))
+
+from functools import reduce
+# Map Function
+marks = [23,78,90,56,43,34]
+square = list(map(lambda x : x*x , marks))
+print(square)
