@@ -97,6 +97,7 @@
 # set1.clear()
 # print(set1)
 
+
 # # FUNCTIONS
 # def factorial(n):
 #     if n==0 or n==1:
@@ -123,6 +124,7 @@
 #     if i==5:
 #         break
 #     print(i)    
+
 
 # #wap using tuples to print even numbers only
 # numbers = (1,2,3,4,5,6,7,8,9,10)
@@ -154,21 +156,22 @@
 # else:
 #     print("Loop is completed")
 
+
 # #for loop with string
 # word = "sanjay"
 # for letter in word:
 #     print(letter)
+
 
 # #// recursion factorial of a num
 # def fact(n):
 #     if(n==0):
 #         return 1
 #     fact = n*fact(n-1)
-
 # print(f"The factorial of a number is : {fact(5)}")
 
-# #exception handling 
 
+# #exception handling 
 # try :
 #     a = int(input())
 #     b = a/0
@@ -179,6 +182,7 @@
 #     print("df")
 # finally:
 #     print("sdf")
+
 
 # #file handling
 # #writing to a file    
@@ -193,25 +197,29 @@
 # print(content)
 # file.close()
 
+
 # #shorthand if else
 # a = 10
 # b = 20
 # max = a if a>b else b
 # print(f"The max num is : {max}")
 
+
 # #enumerate function
 # fruits = ["apple","banana","mango","grapes"]
 # for index, fruit in enumerate(fruits):
 #     print(f"{index} : {fruit}")
 
-# # if __name__ == "__main__":
 
+# # if __name__ == "__main__":
 # def greeting(name):
 #     return f"Hello, {name}!"
 # print(greeting("Sanjay"))
 
+
 # if __name__ == "__main__":
 #     print("This script is being run directly.")
+
 
 # # Os modules 
 # import os 
@@ -237,15 +245,19 @@
 # print(data)
 # file.close()
 
+
 # with open("sanjay.txt" , "r") as f: #   it is second method to read a filewe dont have to provide file.close()
 #     data = f.read()
 #     print(data)
 
+
 # with open("sanjat,txt" , "x") as f: # it is used to create a new file
 #     f.write("This is sanjay lade")
 
+
 # with open("sanjay.txt" , "a") as f: # it is used to append data to existing file
 #     f.write("\nThis is appended line.")
+
 
 # with open("sanjay.txt" , "r") as f: # it is used to read the file
 #     data = f.readline()
@@ -253,11 +265,13 @@
 #     data3 = f.read(5)
 #     print(data)
 
+
 # with open("sanjay.txt" , "r") as f: # it is used to read the file
 #     f.seek(10)# it is used to move the cursor to specific position
 #     print(f.tell())# it is used to know the current position of cursor
 #     data = f.read()
 #     print(data)
+
 
 # # Lambda Functions 
 # a = 10
@@ -265,21 +279,25 @@
 # mutli = lambda a,b : a*b
 # print(mutli(a,b))
 
+
 # # Map Function
 # marks = [23,78,90,56,43,34]
 # square = list(map(lambda x : x*x , marks))
 # print(square)
+
 
 # # Filter Function
 # numbers = [1,2,3,4,5,6,7,8,9,10]
 # Odd_num = list(filter(lambda X : X %2 != 0 , numbers))
 # print(Odd_num)
 
+
 # # Reduce Function
 # from functools import reduce
 # nums = [23,456,78,546,33]
 # avg = reduce(lambda a,b : a+b , nums )/len(nums)
 # print(avg)
+
 
 # # Is vs == operator
 # a = [1,2,3]
