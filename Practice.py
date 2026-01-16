@@ -320,3 +320,25 @@
 
 # stu1 = Person("Sanjay", 28)   
 # stu1.greet()   
+
+# Constructors in Python
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def display_info(self):
+        print(f"This is a {self.make} {self.model}.")
+
+car1 = Car("Toyota", "Camry")
+car1.display_info()
+
+class Greet :
+    def __init__( DOB):
+        self.DOB = DOB
+    
+    def display(DOB):
+        print(f"the dob is {self.DOB}")
+
+g1 = Greet("24 june 1995")
+g1.display()
