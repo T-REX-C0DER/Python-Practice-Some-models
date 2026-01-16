@@ -333,12 +333,12 @@
 # car1 = Car("Toyota", "Camry")
 # car1.display_info()
 
-class Greet :
-    def __init__(self, DOB):
-        self.DOB = DOB
+# class Greet :
+#     def __init__(self, DOB):
+#         self.DOB = DOB
     
-    def display(self):
-        print(f"the dob is {self.DOB}")
+#     def display(self):
+#         print(f"the dob is {self.DOB}")
 
-g1 = Greet("24 june 1995")
-g1.display()
+# g1 = Greet("24 june 1995")
+# g1.display()
