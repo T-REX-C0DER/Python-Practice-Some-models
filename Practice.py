@@ -309,14 +309,14 @@
 # print(a is c)
 
 
-# OOP in Python
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# # OOP in Python
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def greet(self):
-        print(f"Hello, my name is {self.name} and I am {self.age} years old.")
+#     def greet(self):
+#         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
-stu1 = Person("Sanjay", 28)   
-stu1.greet()   
+# stu1 = Person("Sanjay", 28)   
+# stu1.greet()   
