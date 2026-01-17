@@ -343,49 +343,49 @@
 # g1 = Greet("24 june 1995")
 # g1.display()
 
-# Decorators in Python
-def my_decorator(func):
-    def wrapper():
-        print("Before the function call.")
-        func()
-        print("After the function call.")
-    return wrapper
-@my_decorator
-def say_hello():
-    print("Hello!")
-say_hello()
+# # Decorators in Python
+# def my_decorator(func):
+#     def wrapper():
+#         print("Before the function call.")
+#         func()
+#         print("After the function call.")
+#     return wrapper
+# @my_decorator
+# def say_hello():
+#     print("Hello!")
+# say_hello()
 
-# Getters and Setters in Python
-class Student:
-    def __init__(self, name, age):
-        self._name = name
-        self._age = age
+# # Getters and Setters in Python
+# class Student:
+#     def __init__(self, name, age):
+#         self._name = name
+#         self._age = age
 
-    @property
-    def name(self):
-        return self._name
+#     @property
+#     def name(self):
+#         return self._name
 
-    @name.setter
-    def name(self, name):
-        self._name = name
+#     @name.setter
+#     def name(self, name):
+#         self._name = name
 
-    @property
-    def age(self):
-        return self._age
+#     @property
+#     def age(self):
+#         return self._age
 
-    @age.setter
-    def age(self, age):
-        if age >= 0:
-            self._age = age
-        else:
-            print("Age cannot be negative.")
+#     @age.setter
+#     def age(self, age):
+#         if age >= 0:
+#             self._age = age
+#         else:
+#             print("Age cannot be negative.")
 
-student = Student("Sanjay", 28)
-print(student.name)
-student.name = "Lade"
-print(student.name)
-print(student.age)
-student.age = 30
-print(student.age)
-student.age = -5
-print(student.age)
+# student = Student("Sanjay", 28)
+# print(student.name)
+# student.name = "Lade"
+# print(student.name)
+# print(student.age)
+# student.age = 30
+# print(student.age)
+# student.age = -5
+# print(student.age)
