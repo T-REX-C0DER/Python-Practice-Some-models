@@ -454,3 +454,13 @@ d1.method_a()
 d1.method_b()
 d1.method_c()
 d1.method_d()
+
+# Access Modifiers in Python
+# Public Access Modifier
+class PublicExample:
+    def __init__(self, name):
+        self.name = name
+example1 = PublicExample("Sanjay")
+print(example1.name)
+
+# 
