@@ -418,3 +418,20 @@ child2 = Child()
 child2.father_method()
 child2.mother_method()
 child2.child_method()   
+
+# Hierarchical Inheritance
+class Parent:
+    def parent_method(self):
+        print("Parent method")
+class Child1(Parent):
+    def child1_method(self):
+        print("Child1 method")
+class Child2(Parent):
+    def child2_method(self):
+        print("Child2 method")
+child3 = Child1()
+child3.parent_method()
+child3.child1_method()
+child4 = Child2()
+child4.parent_method()
+child4.child2_method()
