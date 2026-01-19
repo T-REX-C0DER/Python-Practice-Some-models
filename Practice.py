@@ -469,3 +469,13 @@ class ProtectedExample:
         self._name = name
 example2 = ProtectedExample("Sanjay")
 print(example2._name)
+
+# Private Access Modifier
+class PrivateExample:
+    def __init__(self, name):
+        self.__name = name
+    def get_name(self):
+        return self.__name
+example3 = PrivateExample("Sanjay")
+print(example3.get_name())
+
