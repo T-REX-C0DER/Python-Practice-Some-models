@@ -403,3 +403,18 @@ child1 = Child()
 child1.grandparent_method()
 child1.parent_method()
 child1.child_method()
+
+# Multiple Inheritance
+class Father:
+    def father_method(self):
+        print("Father method")
+class Mother:
+    def mother_method(self):
+        print("Mother method")
+class Child(Father, Mother):
+    def child_method(self):
+        print("Child method")
+child2 = Child()
+child2.father_method()
+child2.mother_method()
+child2.child_method()   
