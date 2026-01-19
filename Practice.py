@@ -435,3 +435,22 @@ child3.child1_method()
 child4 = Child2()
 child4.parent_method()
 child4.child2_method()
+
+# Hybrid Inheritance
+class A:
+    def method_a(self):
+        print("Method A")
+class B(A):
+    def method_b(self):
+        print("Method B")
+class C(A):
+    def method_c(self):
+        print("Method C")
+class D(B, C):
+    def method_d(self):
+        print("Method D")
+d1 = D()
+d1.method_a()
+d1.method_b()
+d1.method_c()
+d1.method_d()
