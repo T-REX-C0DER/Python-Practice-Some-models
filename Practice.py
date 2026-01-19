@@ -463,4 +463,9 @@ class PublicExample:
 example1 = PublicExample("Sanjay")
 print(example1.name)
 
-# 
+# Protected Access Modifier
+class ProtectedExample:
+    def __init__(self, name):
+        self._name = name
+example2 = ProtectedExample("Sanjay")
+print(example2._name)
