@@ -377,105 +377,105 @@
 # print(student1.name)
 
 
-# Inheritance in Python
-# Single Inheritance
-class Animal:
-    def speak(self):
-        print("Animal speaks")
-class Dog(Animal):
-    def bark(self):
-        print("Dog barks")
-dog1 = Dog()
-dog1.speak()
-dog1.bark()
+# # Inheritance in Python
+# # Single Inheritance
+# class Animal:
+#     def speak(self):
+#         print("Animal speaks")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog barks")
+# dog1 = Dog()
+# dog1.speak()
+# dog1.bark()
 
-# Multi-level Inheritance
-class Grandparent:
-    def grandparent_method(self):
-        print("Grandparent method")
-class Parent(Grandparent):
-    def parent_method(self):
-        print("Parent method")
-class Child(Parent):
-    def child_method(self):
-        print("Child method")
-child1 = Child()
-child1.grandparent_method()
-child1.parent_method()
-child1.child_method()
+# # Multi-level Inheritance
+# class Grandparent:
+#     def grandparent_method(self):
+#         print("Grandparent method")
+# class Parent(Grandparent):
+#     def parent_method(self):
+#         print("Parent method")
+# class Child(Parent):
+#     def child_method(self):
+#         print("Child method")
+# child1 = Child()
+# child1.grandparent_method()
+# child1.parent_method()
+# child1.child_method()
 
-# Multiple Inheritance
-class Father:
-    def father_method(self):
-        print("Father method")
-class Mother:
-    def mother_method(self):
-        print("Mother method")
-class Child(Father, Mother):
-    def child_method(self):
-        print("Child method")
-child2 = Child()
-child2.father_method()
-child2.mother_method()
-child2.child_method()   
+# # Multiple Inheritance
+# class Father:
+#     def father_method(self):
+#         print("Father method")
+# class Mother:
+#     def mother_method(self):
+#         print("Mother method")
+# class Child(Father, Mother):
+#     def child_method(self):
+#         print("Child method")
+# child2 = Child()
+# child2.father_method()
+# child2.mother_method()
+# child2.child_method()   
 
-# Hierarchical Inheritance
-class Parent:
-    def parent_method(self):
-        print("Parent method")
-class Child1(Parent):
-    def child1_method(self):
-        print("Child1 method")
-class Child2(Parent):
-    def child2_method(self):
-        print("Child2 method")
-child3 = Child1()
-child3.parent_method()
-child3.child1_method()
-child4 = Child2()
-child4.parent_method()
-child4.child2_method()
+# # Hierarchical Inheritance
+# class Parent:
+#     def parent_method(self):
+#         print("Parent method")
+# class Child1(Parent):
+#     def child1_method(self):
+#         print("Child1 method")
+# class Child2(Parent):
+#     def child2_method(self):
+#         print("Child2 method")
+# child3 = Child1()
+# child3.parent_method()
+# child3.child1_method()
+# child4 = Child2()
+# child4.parent_method()
+# child4.child2_method()
 
-# Hybrid Inheritance
-class A:
-    def method_a(self):
-        print("Method A")
-class B(A):
-    def method_b(self):
-        print("Method B")
-class C(A):
-    def method_c(self):
-        print("Method C")
-class D(B, C):
-    def method_d(self):
-        print("Method D")
-d1 = D()
-d1.method_a()
-d1.method_b()
-d1.method_c()
-d1.method_d()
+# # Hybrid Inheritance
+# class A:
+#     def method_a(self):
+#         print("Method A")
+# class B(A):
+#     def method_b(self):
+#         print("Method B")
+# class C(A):
+#     def method_c(self):
+#         print("Method C")
+# class D(B, C):
+#     def method_d(self):
+#         print("Method D")
+# d1 = D()
+# d1.method_a()
+# d1.method_b()
+# d1.method_c()
+# d1.method_d()
 
-# Access Modifiers in Python
-# Public Access Modifier
-class PublicExample:
-    def __init__(self, name):
-        self.name = name
-example1 = PublicExample("Sanjay")
-print(example1.name)
+# # Access Modifiers in Python
+# # Public Access Modifier
+# class PublicExample:
+#     def __init__(self, name):
+#         self.name = name
+# example1 = PublicExample("Sanjay")
+# print(example1.name)
 
-# Protected Access Modifier
-class ProtectedExample:
-    def __init__(self, name):
-        self._name = name
-example2 = ProtectedExample("Sanjay")
-print(example2._name)
+# # Protected Access Modifier
+# class ProtectedExample:
+#     def __init__(self, name):
+#         self._name = name
+# example2 = ProtectedExample("Sanjay")
+# print(example2._name)
 
-# Private Access Modifier
-class PrivateExample:
-    def __init__(self, name):
-        self.__name = name
-    def get_name(self):
-        return self.__name
-example3 = PrivateExample("Sanjay")
-print(example3.get_name())
+# # Private Access Modifier
+# class PrivateExample:
+#     def __init__(self, name):
+#         self.__name = name
+#     def get_name(self):
+#         return self.__name
+# example3 = PrivateExample("Sanjay")
+# print(example3.get_name())
 
