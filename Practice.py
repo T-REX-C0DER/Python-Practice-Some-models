@@ -389,4 +389,17 @@ dog1 = Dog()
 dog1.speak()
 dog1.bark()
 
-#
+# Multi-level Inheritance
+class Grandparent:
+    def grandparent_method(self):
+        print("Grandparent method")
+class Parent(Grandparent):
+    def parent_method(self):
+        print("Parent method")
+class Child(Parent):
+    def child_method(self):
+        print("Child method")
+child1 = Child()
+child1.grandparent_method()
+child1.parent_method()
+child1.child_method()
