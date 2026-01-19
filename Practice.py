@@ -355,25 +355,38 @@
 #     print("Hello!")
 # say_hello()
 
-# Getters and Setters in Python
-class Student:
-    def __init__(self, name):
-        self._name = name
+# # Getters and Setters in Python
+# class Student:
+#     def __init__(self, name):
+#         self._name = name
 
-    @property
-    def name(self):
-        return self._name
-    @name.setter
-    def name(self, new_name):
-        if len(new_name) > 0:
-            self._name = new_name
-        else:
-            print("Name cannot be empty.")
-student1 = Student("Sanjay")
-print(student1.name)
-student1.name = "Sanjay Lade"
-print(student1.name)
-student1.name = ""
-print(student1.name)
+#     @property
+#     def name(self):
+#         return self._name
+#     @name.setter
+#     def name(self, new_name):
+#         if len(new_name) > 0:
+#             self._name = new_name
+#         else:
+#             print("Name cannot be empty.")
+# student1 = Student("Sanjay")
+# print(student1.name)
+# student1.name = "Sanjay Lade"
+# print(student1.name)
+# student1.name = ""
+# print(student1.name)
 
 
+# Inheritance in Python
+# Single Inheritance
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+dog1 = Dog()
+dog1.speak()
+dog1.bark()
+
+#
