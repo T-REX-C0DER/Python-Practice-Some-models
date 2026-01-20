@@ -479,15 +479,15 @@
 # example3 = PrivateExample("Sanjay")
 # print(example3.get_name())
 
-# Statix methods in Python
-class MathOperations:
-    @staticmethod
-    def add(a, b):
-        return a + b
-    @staticmethod
-    def multiply(a, b):
-        return a * b
-result1 = MathOperations.add(5, 3)
-result2 = MathOperations.multiply(4, 6)
-print(result1)
-print(result2)
+# # Statix methods in Python
+# class MathOperations:
+#     @staticmethod
+#     def add(a, b):
+#         return a + b
+#     @staticmethod
+#     def multiply(a, b):
+#         return a * b
+# result1 = MathOperations.add(5, 3)
+# result2 = MathOperations.multiply(4, 6)
+# print(result1)
+# print(result2)
