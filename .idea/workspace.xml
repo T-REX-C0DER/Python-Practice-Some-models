@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3970a2fb-afcc-460c-83df-5a2ca2691b3a" name="Changes" comment="" />
+    <list default="true" id="3970a2fb-afcc-460c-83df-5a2ca2691b3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product_profit_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/product_profit_prediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_score_prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_score_prediction.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +15,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="38UGQGgCFrBYbuxm1DriMQDH7LY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,13 +27,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Practice.executor": "Run",
+    "Python.Text_To_Speech.executor": "Run",
+    "Python.Youtube_Downloader.executor": "Run",
     "Python.budget_tracker.executor": "Run",
+    "Python.product_profit_prediction.executor": "Run",
+    "Python.student_score_prediction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "main",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -47,6 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1768846720314</updated>
       <workItem from="1768846722320" duration="138000" />
+      <workItem from="1768919110639" duration="298000" />
+      <workItem from="1768934579380" duration="323000" />
+      <workItem from="1768972207107" duration="299000" />
     </task>
     <servers />
   </component>
@@ -65,6 +83,10 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Skills$student_score_prediction.coverage" NAME="student_score_prediction Coverage Results" MODIFIED="1768934695467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Skills$Practice.coverage" NAME="Practice Coverage Results" MODIFIED="1768919134540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Skills$product_profit_prediction.coverage" NAME="product_profit_prediction Coverage Results" MODIFIED="1768919284904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Skills$budget_tracker.coverage" NAME="budget_tracker Coverage Results" MODIFIED="1768846774303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Skills$Text_To_Speech.coverage" NAME="Text_To_Speech Coverage Results" MODIFIED="1768934764205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
