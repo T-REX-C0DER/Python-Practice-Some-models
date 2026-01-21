@@ -491,5 +491,3 @@
 # result2 = MathOperations.multiply(4, 6)
 # print(result1)
 # print(result2)
-
-jfghd
