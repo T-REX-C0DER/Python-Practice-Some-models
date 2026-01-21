@@ -479,15 +479,22 @@
 # example3 = PrivateExample("Sanjay")
 # print(example3.get_name())
 
-# # Statix methods in Python
+# # # Static methods in Python
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
 # class MathOperations:
+#     @staticmethod
+#     def substract(a,b):
+#         return a-b
 #     @staticmethod
 #     def add(a, b):
 #         return a + b
 #     @staticmethod
 #     def multiply(a, b):
 #         return a * b
-# result1 = MathOperations.add(5, 3)
-# result2 = MathOperations.multiply(4, 6)
-# print(result1)
-# print(result2)
+# result1 = MathOperations.add(a, b)
+# result2 = MathOperations.multiply(a,b)
+# result3 = MathOperations.substract(a,b)
+# print(f"The addition of num is : {result1}")
+# print(f"The multiplication of num is : {result2}")
+# print(f"The subtraction of num is : {result3}")
