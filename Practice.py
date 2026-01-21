@@ -492,9 +492,16 @@
 #     @staticmethod
 #     def multiply(a, b):
 #         return a * b
+<<<<<<< HEAD
 # result1 = MathOperations.add(a, b)
 # result2 = MathOperations.multiply(a,b)
 # result3 = MathOperations.substract(a,b)
 # print(f"The addition of num is : {result1}")
 # print(f"The multiplication of num is : {result2}")
 # print(f"The subtraction of num is : {result3}")
+=======
+# result1 = MathOperations.add(5, 3)
+# result2 = MathOperations.multiply(4, 6)
+# print(result1)
+# print(result2)
+>>>>>>> e7c09316aa9572922e31d6825cdeda80d5d2ae84
