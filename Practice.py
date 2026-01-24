@@ -317,7 +317,6 @@
 
 #     def greet(self):
 #         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
-
 # stu1 = Person("Sanjay", 28)   
 # stu1.greet()   
 
@@ -329,6 +328,8 @@
 
 #     def display_info(self):
 #         print(f"This is a {self.make} {self.model}.")
+
+
 
 # car1 = Car("Toyota", "Camry")
 # car1.display_info()
@@ -343,6 +344,8 @@
 # g1 = Greet("24 june 1995")
 # g1.display()
 
+
+
 # # Decorators in Python
 # def my_decorator(func):
 #     def wrapper():
@@ -354,6 +357,8 @@
 # def say_hello():
 #     print("Hello!")
 # say_hello()
+
+
 
 # # Getters and Setters in Python
 # class Student:
@@ -377,7 +382,7 @@
 # print(student1.name)
 
 
-# # Inheritance in Python
+
 # # Single Inheritance
 # class Animal:
 #     def speak(self):
@@ -388,6 +393,8 @@
 # dog1 = Dog()
 # dog1.speak()
 # dog1.bark()
+
+
 
 # # Multi-level Inheritance
 # class Grandparent:
@@ -404,6 +411,8 @@
 # child1.parent_method()
 # child1.child_method()
 
+
+
 # # Multiple Inheritance
 # class Father:
 #     def father_method(self):
@@ -418,6 +427,8 @@
 # child2.father_method()
 # child2.mother_method()
 # child2.child_method()   
+
+
 
 # # Hierarchical Inheritance
 # class Parent:
@@ -435,6 +446,8 @@
 # child4 = Child2()
 # child4.parent_method()
 # child4.child2_method()
+
+
 
 # # Hybrid Inheritance
 # class A:
@@ -455,6 +468,8 @@
 # d1.method_c()
 # d1.method_d()
 
+
+
 # # Access Modifiers in Python
 # # Public Access Modifier
 # class PublicExample:
@@ -462,6 +477,8 @@
 #         self.name = name
 # example1 = PublicExample("Sanjay")
 # print(example1.name)
+
+
 
 # # Protected Access Modifier
 # class ProtectedExample:
@@ -478,6 +495,8 @@
 #         return self.__name
 # example3 = PrivateExample("Sanjay")
 # print(example3.get_name())
+
+
 
 # # # Static methods in Python
 # a = int(input("Enter the first number: "))
@@ -504,6 +523,7 @@
 # print(result2)
 
 
+
 # # Method Overriding in Python
 # class Animal:
 #     def sound(self):
@@ -519,6 +539,8 @@
 # dog1.sound()
 # cat1.sound()
 
+
+
 # # Magic/Dunder Methods in Python
 # class Point:
 #     def __init__(self, x, y):
@@ -532,6 +554,8 @@
 # point2 = Point(3, 4)
 # result = point1 + point2
 # print(result)
+
+
 
 # # Operator Overloading in Python
 # class Point:
