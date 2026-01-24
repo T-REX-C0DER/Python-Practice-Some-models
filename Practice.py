@@ -555,9 +555,10 @@
 # result = point1 * point2
 # print(result)
 
+
+
 # Time Module in Python
 import time 
-
 #  To get the current time
 current_time  = time.time() 
 print(f"Current Time in seconds since epoch: {current_time}")
@@ -574,3 +575,14 @@ print(f"Formatted Time: {formatted_time}")
 print("Pausing for 2 seconds...")
 time.sleep(2)
 print("Resuming execution.")
+
+
+
+# Walrus Operator in python 
+# Normally in py
+name = "sanjay"
+string = len(name)
+print(string)
+# With walrus 
+if(n := len(name))>5:
+    pass
