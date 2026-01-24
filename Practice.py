@@ -570,3 +570,7 @@ print(f"Current Local Time: {current_time}")
 formatted_time = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
 print(f"Formatted Time: {formatted_time}")
 
+# To pause the execution for 2 seconds
+print("Pausing for 2 seconds...")
+time.sleep(2)
+print("Resuming execution.")
