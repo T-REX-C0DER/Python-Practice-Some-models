@@ -562,3 +562,6 @@ import time
 current_time  = time.time() 
 print(f"Current Time in seconds since epoch: {current_time}")
 
+# To get the current local time
+current_time = time.localtime()
+print(f"Current Local Time: {current_time}")
