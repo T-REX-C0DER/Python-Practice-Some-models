@@ -581,32 +581,48 @@
 
 
 
-# Time Module in Python
-import time 
-#  To get the current time
-current_time  = time.time() 
-print(f"Current Time in seconds since epoch: {current_time}")
+# # Time Module in Python
+# import time 
+# #  To get the current time
+# current_time  = time.time() 
+# print(f"Current Time in seconds since epoch: {current_time}")
 
-# To get the current local time
-current_time = time.localtime()
-print(f"Current Local Time: {current_time}")
+# # To get the current local time
+# current_time = time.localtime()
+# print(f"Current Local Time: {current_time}")
 
-# To format the current local time
-formatted_time = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
-print(f"Formatted Time: {formatted_time}")
+# # To format the current local time
+# formatted_time = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
+# print(f"Formatted Time: {formatted_time}")
 
-# To pause the execution for 2 seconds
-print("Pausing for 2 seconds...")
-time.sleep(2)
-print("Resuming execution.")
+# # To pause the execution for 2 seconds
+# print("Pausing for 2 seconds...")
+# time.sleep(2)
+# print("Resuming execution.")
 
 
 
-# Walrus Operator in python 
-# Normally in py
-name = "sanjay"
-string = len(name)
-print(string)
-# With walrus 
-if(n := len(name))>5:
-    pass
+# # Walrus Operator in python 
+# # Normally in py
+# name = "sanjay"
+# string = len(name)
+# print(string)
+# # With walrus 
+# if(n := len(name))>5:
+#     pass
+
+
+
+# # Shutil in python
+# import shutil
+# # Copying a file
+# shutil.copy("sanjay.txt" , "sanjay_copy.txt")
+# # Moving a file
+# shutil.move("sanjay_copy.txt" , "new_folder/sanjay_moved.txt")
+# # Deleting a file
+# shutil.rmtree("new_folder")
+# # Creating a zip file
+# shutil.make_archive("sanjay_archive" , 'zip' , "sanjay.txt")
+# # Extracting a zip file
+# shutil.unpack_archive("sanjay_archive.zip" , "extracted_folder" , 'zip')
+
