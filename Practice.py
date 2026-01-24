@@ -554,3 +554,11 @@
 # print(result)
 # result = point1 * point2
 # print(result)
+
+# Time Module in Python
+import time 
+
+#  To get the current time
+current_time  = time.time() 
+print(f"Current Time in seconds since epoch: {current_time}")
+
