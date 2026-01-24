@@ -565,3 +565,8 @@ print(f"Current Time in seconds since epoch: {current_time}")
 # To get the current local time
 current_time = time.localtime()
 print(f"Current Local Time: {current_time}")
+
+# To format the current local time
+formatted_time = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
+print(f"Formatted Time: {formatted_time}")
+
