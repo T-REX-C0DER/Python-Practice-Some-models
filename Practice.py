@@ -626,3 +626,11 @@
 # # Extracting a zip file
 # shutil.unpack_archive("sanjay_archive.zip" , "extracted_folder" , 'zip')
 
+
+
+# reuqeusts module in python
+import requests
+response = requests.get("https://api.github.com")
+print(f"Status Code: {response.status_code}")
+print(f"Content: {response.text}")
+print(f"Headers: {response.headers}")   
