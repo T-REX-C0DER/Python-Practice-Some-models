@@ -35,7 +35,7 @@
 # print(str1.capitalize())
 
 
-# #Conditional statements (Gretest of three numbers)
+# #Conditional statements (Greatest of three numbers)
 # a = int(input("Enter the num : ")) 
 # b = int(input("Enter the num : ")) 
 # c = int(input("Enter the num : "))
@@ -628,9 +628,11 @@
 
 
 
-# reuqeusts module in python
-import requests
-response = requests.get("https://api.github.com")
-print(f"Status Code: {response.status_code}")
-print(f"Content: {response.text}")
-print(f"Headers: {response.headers}")   
+# # reuqeusts module in python
+# import requests
+# response = requests.get("https://api.github.com")
+# print(f"Status Code: {response.status_code}")
+# print(f"Content: {response.text}")
+# print(f"Headers: {response.headers}")
+
+
