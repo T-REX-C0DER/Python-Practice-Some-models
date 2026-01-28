@@ -673,3 +673,10 @@ print(fibonacci(10))
 print(fibonacci.cache_info())
 fibonacci.cache_clear()
 print(fibonacci.cache_info())
+
+# Regular Expressions in Python
+import re
+pattern = r'\b\w{4}\b'
+text = "This is a test text with some four letter words like test, text, and some."
+matches = re.findall(pattern, text)
+print(matches)
