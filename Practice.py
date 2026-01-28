@@ -661,3 +661,15 @@ def generate_squares(n):
 squares = generate_squares(5)
 for square in squares:
     print(square)   
+
+# Function Caching in Python
+from functools import lru_cache
+@lru_cache(maxsize=None)
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+print(fibonacci(10))
+print(fibonacci.cache_info())
+fibonacci.cache_clear()
+print(fibonacci.cache_info())
