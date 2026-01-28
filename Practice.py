@@ -680,3 +680,11 @@ pattern = r'\b\w{4}\b'
 text = "This is a test text with some four letter words like test, text, and some."
 matches = re.findall(pattern, text)
 print(matches)
+
+# Asyncio in Python
+import asyncio  
+async def say_hello():
+    print("Hello")
+    await asyncio.sleep(1)
+    print("World")
+asyncio.run(say_hello())
