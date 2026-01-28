@@ -653,3 +653,11 @@
 # thread1.join()
 # thread2.join()
 # print("Both threads have finished.")    
+
+# Generators in Python
+def generate_squares(n):
+    for i in range(n):
+        yield i * i
+squares = generate_squares(5)
+for square in squares:
+    print(square)   
