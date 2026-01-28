@@ -627,12 +627,14 @@
 # shutil.unpack_archive("sanjay_archive.zip" , "extracted_folder" , 'zip')
 
 
+
 # # reuqeusts module in python
 # import requests
 # response = requests.get("https://api.github.com")
 # print(f"Status Code: {response.status_code}")
 # print(f"Content: {response.text}")
 # print(f"Headers: {response.headers}")
+
 
 
 # # Multithreading in Python
@@ -654,37 +656,45 @@
 # thread2.join()
 # print("Both threads have finished.")    
 
-# Generators in Python
-def generate_squares(n):
-    for i in range(n):
-        yield i * i
-squares = generate_squares(5)
-for square in squares:
-    print(square)   
 
-# Function Caching in Python
-from functools import lru_cache
-@lru_cache(maxsize=None)
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
-print(fibonacci(10))
-print(fibonacci.cache_info())
-fibonacci.cache_clear()
-print(fibonacci.cache_info())
 
-# Regular Expressions in Python
-import re
-pattern = r'\b\w{4}\b'
-text = "This is a test text with some four letter words like test, text, and some."
-matches = re.findall(pattern, text)
-print(matches)
+# # Generators in Python
+# def generate_squares(n):
+#     for i in range(n):
+#         yield i * i
+# squares = generate_squares(5)
+# for square in squares:
+#     print(square)   
 
-# Asyncio in Python
-import asyncio  
-async def say_hello():
-    print("Hello")
-    await asyncio.sleep(1)
-    print("World")
-asyncio.run(say_hello())
+
+
+# # Function Caching in Python
+# from functools import lru_cache
+# @lru_cache(maxsize=None)
+# def fibonacci(n):
+#     if n <= 1:
+#         return n
+#     return fibonacci(n-1) + fibonacci(n-2)
+# print(fibonacci(10))
+# print(fibonacci.cache_info())
+# fibonacci.cache_clear()
+# print(fibonacci.cache_info())
+
+
+
+# # Regular Expressions in Python
+# import re
+# pattern = r'\b\w{4}\b'
+# text = "This is a test text with some four letter words like test, text, and some."
+# matches = re.findall(pattern, text)
+# print(matches)
+
+
+
+# # Asyncio in Python
+# import asyncio  
+# async def say_hello():
+#     print("Hello")
+#     await asyncio.sleep(1)
+#     print("World")
+# asyncio.run(say_hello())
