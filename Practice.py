@@ -721,3 +721,25 @@ logging.info('This is an info message')
 logging.warning('This is a warning message')
 logging.error('This is an error message')
 logging.critical('This is a critical message')  
+
+
+
+# Dataclasses in Python
+from dataclasses import dataclass
+@dataclass
+class Person:
+    name: str
+    age: int
+    city: str
+person1 = Person("Sanjay", 28, "Solapur")
+print(person1.name)
+print(person1.age)
+print(person1.city)
+print(person1)
+person2 = Person("Lade", 30, "Pune")
+print(person2)
+print(person2.name)
+print(person2.age)
+print(person2.city)
+print(person1 == person2)
+print(person1 == person1)   
