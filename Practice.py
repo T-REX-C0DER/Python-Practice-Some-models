@@ -701,45 +701,45 @@
 
 
 
-# Unit Testing in Python
-import unittest
-def add(a, b):
-    return a + b
-class TestAdd(unittest.TestCase):
-    def test_add(self):
-        self.assertEqual(add(2, 3), 5)
-        self.assertEqual(add(-1, 1), 0)
-        self.assertEqual(add(0, 0), 0)
-if __name__ == '__main__':
-    unittest.main()
+# # Unit Testing in Python
+# import unittest
+# def add(a, b):
+#     return a + b
+# class TestAdd(unittest.TestCase):
+#     def test_add(self):
+#         self.assertEqual(add(2, 3), 5)
+#         self.assertEqual(add(-1, 1), 0)
+#         self.assertEqual(add(0, 0), 0)
+# if __name__ == '__main__':
+#     unittest.main()
 
-# Logging in Python
-import logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-logging.debug('This is a debug message')
-logging.info('This is an info message')
-logging.warning('This is a warning message')
-logging.error('This is an error message')
-logging.critical('This is a critical message')  
+# # Logging in Python
+# import logging
+# logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.debug('This is a debug message')
+# logging.info('This is an info message')
+# logging.warning('This is a warning message')
+# logging.error('This is an error message')
+# logging.critical('This is a critical message')  
 
 
 
-# Dataclasses in Python
-from dataclasses import dataclass
-@dataclass
-class Person:
-    name: str
-    age: int
-    city: str
-person1 = Person("Sanjay", 28, "Solapur")
-print(person1.name)
-print(person1.age)
-print(person1.city)
-print(person1)
-person2 = Person("Lade", 30, "Pune")
-print(person2)
-print(person2.name)
-print(person2.age)
-print(person2.city)
-print(person1 == person2)
-print(person1 == person1)   
+# # Dataclasses in Python
+# from dataclasses import dataclass
+# @dataclass
+# class Person:
+#     name: str
+#     age: int
+#     city: str
+# person1 = Person("Sanjay", 28, "Solapur")
+# print(person1.name)
+# print(person1.age)
+# print(person1.city)
+# print(person1)
+# person2 = Person("Lade", 30, "Pune")
+# print(person2)
+# print(person2.name)
+# print(person2.age)
+# print(person2.city)
+# print(person1 == person2)
+# print(person1 == person1)   
