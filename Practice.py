@@ -1,3 +1,7 @@
+# # Printing in same line
+# print("The asgg" , end = "")
+# print("sdfgfh")
+
 # #Arithmatic operations 
 # a = int(input(f"Enter the number : "))
 # b = int(input(f"Enter the number : "))
