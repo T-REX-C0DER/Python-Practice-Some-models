@@ -2,8 +2,10 @@
 # print("The asgg" , end = "")
 # print("sdfgfh")
 
+
 # # Separating strings 
 # print("One","Two",sep = "-")
+
 
 # #Arithmatic operations 
 # a = int(input(f"Enter the number : "))
@@ -325,18 +327,17 @@
 #     def __init__(self, name, age):
 #         self.name = name
 #         self.age = age
-
 #     def greet(self):
 #         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 # stu1 = Person("Sanjay", 28)   
 # stu1.greet()   
+
 
 # # Constructors in Python
 # class Car:
 #     def __init__(self, make, model):
 #         self.make = make
 #         self.model = model
-
 #     def display_info(self):
 #         print(f"This is a {self.make} {self.model}.")
 
@@ -344,14 +345,11 @@
 
 # car1 = Car("Toyota", "Camry")
 # car1.display_info()
-
 # class Greet :
 #     def __init__(self, DOB):
 #         self.DOB = DOB
-    
 #     def display(self):
 #         print(f"the dob is {self.DOB}")
-
 # g1 = Greet("24 june 1995")
 # g1.display()
 
@@ -375,7 +373,6 @@
 # class Student:
 #     def __init__(self, name):
 #         self._name = name
-
 #     @property
 #     def name(self):
 #         return self._name
@@ -497,6 +494,7 @@
 #         self._name = name
 # example2 = ProtectedExample("Sanjay")
 # print(example2._name)
+
 
 # # Private Access Modifier
 # class PrivateExample:
