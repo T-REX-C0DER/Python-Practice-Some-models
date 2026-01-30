@@ -2,6 +2,9 @@
 # print("The asgg" , end = "")
 # print("sdfgfh")
 
+# # Separating strings 
+# print("One","Two",sep = "-")
+
 # #Arithmatic operations 
 # a = int(input(f"Enter the number : "))
 # b = int(input(f"Enter the number : "))
