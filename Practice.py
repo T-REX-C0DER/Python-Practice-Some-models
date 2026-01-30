@@ -59,10 +59,14 @@
 # student[0] = "SanjayLade"
 # print(student)
 # print(student[1:2])
-# print(student[-1:-2])
+# print(student[::-1])
+# print(student[0:5:2])
+# print(student[::])
 # student.append(24062231995006)
 # student.reverse()
 # student.remove(34)
+# student.pop()
+# student.sort()
 # print(student)
 
 
