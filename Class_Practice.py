@@ -21,6 +21,11 @@
 
 # Celcius to Farenheit convertor
 
-temp = int(input("Enter the temperature in celcius: "))
-faren = (temp*9/5)+32;
-print(f"The Temperature in Farenheit is {faren}")
+# temp = int(input("Enter the temperature in celcius: "))
+# faren = (temp*9/5)+32;
+# print(f"The Temperature in Farenheit is {faren}")
+
+radius = float(input("Enter the radius of circle: "))
+PI = 3.14
+area = PI * radius * radius
+print(f"The area of circle is {area}")
