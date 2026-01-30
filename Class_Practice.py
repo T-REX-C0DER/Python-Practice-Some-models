@@ -25,7 +25,15 @@
 # faren = (temp*9/5)+32;
 # print(f"The Temperature in Farenheit is {faren}")
 
-radius = float(input("Enter the radius of circle: "))
-PI = 3.14
-area = PI * radius * radius
-print(f"The area of circle is {area}")
+# radius = float(input("Enter the radius of circle: "))
+# PI = 3.14
+# area = PI * radius * radius
+# print(f"The area of circle is {area} having radius {radius}")
+
+# User_Name = input("Enter Your Name: ")
+
+# principal_amount = float(input("Enter the Principal Amount: "))
+# rate_of_interest = float(input("Enter the Rate of Interest (in %): "))  
+# time_period = float(input("Enter the Time Period (in years): "))
+
+# simple_interest = (principal_amount * rate_of_interest * time_period) / 100 
