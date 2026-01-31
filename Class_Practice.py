@@ -51,18 +51,19 @@
 # else :
 #     print("Fail")    # If marks are less than 35, print Fail
 
-girls_count = int(input("Enter the no of girls present in class : "))
-boys_count = int(input("Enter the no of boys present in class : "))
+# # The class problem
+# girls_count = int(input("Enter the no of girls present in class : "))
+# boys_count = int(input("Enter the no of boys present in class : "))
 
-tubligts = ["tub1" , "tub2" , "tub3" , "tub4"]
-fan = ["fan1" , "fan2" , "fan3" , "fan4" , "fan5" , "fan6"]
+# tubligts = ["tub1" , "tub2" , "tub3" , "tub4"]
+# fan = ["fan1" , "fan2" , "fan3" , "fan4" , "fan5" , "fan6"]
 
-if boys_count >= 10 and girls_count >= 10 :
-    print(f"For girls the {tubligts[2]} is on and the {fan[5]} is on")
-    print(f"For boys the {tubligts[0]} is on and the {fan[0]} is on")
+# if boys_count >= 10 and girls_count >= 10 :
+#     print(f"For girls the {tubligts[2]} is on and the {fan[5]} is on")
+#     print(f"For boys the {tubligts[0]} is on and the {fan[0]} is on")
     
-elif boys_count >= 25 and girls_count >= 25 :
-    print(f"For girls the {tubligts[3]} is on and the {fan[4]} is on")
-    print(f"For boys the {tubligts[0]} is on and the {fan[3]} is on")
+# elif boys_count >= 25 and girls_count >= 25 :
+#     print(f"For girls the {tubligts[3]} is on and the {fan[4]} is on")
+#     print(f"For boys the {tubligts[0]} is on and the {fan[3]} is on")
     
 
