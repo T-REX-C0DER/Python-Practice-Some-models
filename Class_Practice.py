@@ -64,18 +64,17 @@
 #     print(f"For boys the {tubligts[0]} is on and the {fan[3]} is on")
 
 
-# WAP to print the simple interest with bonus of a employee
-employee_name = input("Enter Employee Name: ")
-principal_amount = float(input("Enter the Principal Amount: ")) 
-rate_of_interest = float(input("Enter the Rate of Interest (in %): "))
-time_period = float(input("Enter the Time Period (in years): "))
-bonus_percentage = float(input("Enter the Bonus Percentage (in %): "))
-simple_interest = (principal_amount * rate_of_interest * time_period) / 100
-bonus_amount = (simple_interest * bonus_percentage) / 100
-total_amount = principal_amount + simple_interest + bonus_amount
-print(f"Employee Name: {employee_name}")
-print(f"Simple Interest: {simple_interest}")
-print(f"Bonus Amount: {bonus_amount}")
-print(f"Total Amount: {total_amount}")
+# # WAP to print the simple interest with bonus of a employee
+# employee_name = input("Enter Employee Name: ")
+# principal_amount = float(input("Enter the Principal Amount: ")) 
+# rate_of_interest = float(input("Enter the Rate of Interest (in %): "))
+# time_period = float(input("Enter the Time Period (in years): "))
+# bonus_percentage = float(input("Enter the Bonus Percentage (in %): "))
+# simple_interest = (principal_amount * rate_of_interest * time_period) / 100
+# bonus_amount = (simple_interest * bonus_percentage) / 100
+# total_amount = principal_amount + simple_interest + bonus_amount
+# print(f"Employee Name: {employee_name}")
+# print(f"Simple Interest: {simple_interest}")
+# print(f"Bonus Amount: {bonus_amount}")
+# print(f"Total Amount: {total_amount}")
     
-
