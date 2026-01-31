@@ -78,3 +78,18 @@
 # print(f"Bonus Amount: {bonus_amount}")
 # print(f"Total Amount: {total_amount}")
     
+
+# accept user detail along with elec consumed based on that calc elec bill considering a const rate per unit
+
+# per_unit_rate = 5
+# user_name = input("Enter the name of user : ")
+# user_phoneno = input("Enter the mob no : ")
+# user_email = input("Enter the users email : ")
+# user_address = input("Enter the users address : ")
+# units_consumed = float(input("Enter the units consumed : "))
+# user_bill = per_unit_rate*units_consumed
+# print(f"The users name is {user_name} ")
+# print(f"The users phoneno is {user_phoneno} ")
+# print(f"The users email is {user_email} ")
+# print(f"The users address is {user_address} ")
+# print(f"The users bill is {user_bill}")
