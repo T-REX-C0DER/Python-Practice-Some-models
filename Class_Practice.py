@@ -36,3 +36,17 @@
 # rate_of_interest = float(input("Enter the Rate of Interest (in %): "))  
 # time_period = float(input("Enter the Time Period (in years): "))
 # simple_interest = (principal_amount * rate_of_interest * time_period) / 100 
+
+# If-elif-else
+marks = int(input("Enter your marks: "))
+
+if marks >= 80 :
+    print("Grade A")
+elif marks >= 65 :
+    print("Grade B")
+elif marks >= 50 :
+    print("Grade C")
+elif marks >= 35 :
+    print("Pass")
+else :
+    print("Fail")
