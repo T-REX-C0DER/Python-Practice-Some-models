@@ -37,16 +37,32 @@
 # time_period = float(input("Enter the Time Period (in years): "))
 # simple_interest = (principal_amount * rate_of_interest * time_period) / 100 
 
-# If-elif-else
-marks = int(input("Enter your marks: "))
+# # If-elif-else
+# marks = int(input("Enter your marks: ")) # It takes input from user and converts it to integer
 
-if marks >= 80 :
-    print("Grade A")
-elif marks >= 65 :
-    print("Grade B")
-elif marks >= 50 :
-    print("Grade C")
-elif marks >= 35 :
-    print("Pass")
-else :
-    print("Fail")
+# if marks >= 80 :
+#     print("Grade A") # If marks are 80 or above, print Grade A
+# elif marks >= 65 :
+#     print("Grade B") # If marks are 65 or above but less than 80, print Grade B
+# elif marks >= 50 :
+#     print("Grade C") # If marks are 50 or above but less than 65, print Grade C
+# elif marks >= 35 :
+#     print("Pass")    # If marks are 35 or above but less than 50, print Pass
+# else :
+#     print("Fail")    # If marks are less than 35, print Fail
+
+girls_count = int(input("Enter the no of girls present in class : "))
+boys_count = int(input("Enter the no of boys present in class : "))
+
+tubligts = ["tub1" , "tub2" , "tub3" , "tub4"]
+fan = ["fan1" , "fan2" , "fan3" , "fan4" , "fan5" , "fan6"]
+
+if boys_count >= 10 and girls_count >= 10 :
+    print(f"For girls the {tubligts[2]} is on and the {fan[5]} is on")
+    print(f"For boys the {tubligts[0]} is on and the {fan[0]} is on")
+    
+elif boys_count >= 25 and girls_count >= 25 :
+    print(f"For girls the {tubligts[3]} is on and the {fan[4]} is on")
+    print(f"For boys the {tubligts[0]} is on and the {fan[3]} is on")
+    
+
