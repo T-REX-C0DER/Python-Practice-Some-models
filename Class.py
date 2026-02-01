@@ -80,7 +80,6 @@
     
 
 # accept user detail along with elec consumed based on that calc elec bill considering a const rate per unit
-
 # per_unit_rate = 5
 # user_name = input("Enter the name of user : ")
 # user_phoneno = input("Enter the mob no : ")
