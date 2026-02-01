@@ -11,7 +11,6 @@ student_grades2 = int(input("Enter Student Grades"))
 student_grades3 = int(input("Enter Student Grades"))
 print(f" The students 3 subjects are {student_subjects} and teh grades are {student_grades1} and {student_grades2} ,{student_grades3}")
 
-
 # Celcius to Farenheit convertor
 temp = int(input("Enter the temperature in celcius: "))
 faren = (temp*9/5)+32
