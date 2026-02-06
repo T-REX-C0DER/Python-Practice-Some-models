@@ -754,3 +754,13 @@
 # print(person2.city)
 # print(person1 == person2)
 # print(person1 == person1)   
+
+x =122
+x3 = str(x)
+x_reversed = x3[::-1]
+
+x2 = int(x_reversed)
+if x == x2 :
+    print("true")
+else :
+    print("false") 
